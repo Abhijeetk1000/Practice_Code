@@ -1,4 +1,11 @@
 def add(x,y):
     return x+y
 
-print(add(int(input("Num1: ")), int(input("Num2: "))))
+def sub(x,y):
+    return x-y
+
+m = int(input("Num1: "))
+n = int(input("Num2: "))
+
+print("Add: ",add(m,n))
+print("Sub: ", sub(m,n))
